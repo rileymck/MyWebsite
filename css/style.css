@@ -110,7 +110,7 @@ input:checked + .slider:before {
 .text .introduce {
   font-size: 50px;
   position: absolute;
-  top: 18%;
+  top: 100px;
   left: 8.5%;
 }
 
@@ -124,7 +124,7 @@ input:checked + .slider:before {
 .tline {
   position: absolute;
   border-bottom: 3px solid white;
-  left: 50%;
+  left: 750px;
   top: 38%;
   width: 37%;
 }
