@@ -110,7 +110,7 @@ input:checked + .slider:before {
 .text .introduce {
   font-size: 50px;
   position: absolute;
-  top: 100px;
+  top: 18%;
   left: 8.5%;
 }
 
@@ -124,7 +124,7 @@ input:checked + .slider:before {
 .tline {
   position: absolute;
   border-bottom: 3px solid white;
-  left: 750px;
+  left: 50%;
   top: 38%;
   width: 37%;
 }
@@ -135,4 +135,167 @@ input:checked + .slider:before {
   left: 50%;
   top: 80%;
   width: 37%;
+}
+
+@media screen and (min-width: 1680px) {
+  .bline {
+    left: 35%;
+  }
+  .tline {
+    left: 35%;
+  }
+  .text .little {
+    left: 46%;
+  }
+  .text .introduce {
+    top: 17%;
+  }
+  .body {
+    height: 1800px;
+  }
+  .nav-menu li a:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .bline {
+    left: 55%;
+  }
+  .tline {
+    left: 55%;
+  }
+  .text .little {
+    left: 62%;
+  }
+  .text .introduce {
+    top: 17%;
+  }
+  .body {
+    height: 1700px;
+  }
+  .nav-menu li a:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .bline {
+    left: 57%;
+    top: 83%;
+  }
+  .tline {
+    left: 57%;
+    top: 41%;
+  }
+  .text .little {
+    left: 62%;
+    top: 35%;
+  }
+  .text .introduce {
+    top: 15%;
+  }
+  .body {
+    height: 1700px;
+  }
+  .nav-menu li a:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .bline {
+    left: 22%;
+    top: 75%;
+    width: 54%;
+  }
+  .tline {
+    left: 22%;
+    top: 59%;
+    width: 54%;
+  }
+  .text .little {
+    left: 33%;
+    top: 55%;
+  }
+  .text .introduce {
+    top: 6%;
+    left: 30%;
+  }
+  .body {
+    height: 2200px;
+  }
+  .box {
+    top: 15%;
+    left: 21%;
+  }
+  .nav-menu li a:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .bline {
+    left: 18%;
+    top: 99%;
+    width: 63%;
+  }
+  .tline {
+    left: 18%;
+    top: 75%;
+    width: 63%;
+  }
+  .text .little {
+    left: 28%;
+    top: 71%;
+  }
+  .text .introduce {
+    top: 10%;
+    left: 25%;
+  }
+  .body {
+    height: 2200px;
+  }
+  .box {
+    top: 21%;
+    left: 15%;
+  }
+  .nav-menu li a:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bline {
+    left: 18%;
+    top: 102%;
+    width: 63%;
+  }
+  .tline {
+    left: 18%;
+    top: 78%;
+    width: 63%;
+  }
+  .text .little {
+    left: 28%;
+    top: 73%;
+  }
+  .text .introduce {
+    top: 9%;
+    left: 25%;
+  }
+  .body {
+    height: 2200px;
+  }
+  .box {
+    top: 21%;
+    left: 15%;
+  }
+  .nav-menu li a:hover {
+    transform: scale(1.2);
+  }
+}
+
+@media screen and (max-width: 375px) {
+  
 }
